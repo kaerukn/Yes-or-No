@@ -21,7 +21,7 @@ noBtn.addEventListener('click', () => {
     noBtn.style.top = `${randomY}px`;
 
     // Enlarge Yes button
-    yesSize += 4; // Increase size by 4px each time
+    yesSize += 10; // Increase size by 4px each time
     yesBtn.style.fontSize = `${yesSize}px`;
     yesBtn.style.padding = `${10 + (yesSize - 16) / 2}px ${20 + (yesSize - 16) / 2}px`; // Adjust padding to match
 });
@@ -29,4 +29,5 @@ noBtn.addEventListener('click', () => {
 yesBtn.addEventListener('click', () => {
     alert('Yay! bati na po tayo ahhh I love youuuuu');
     // Optionally reset or redirect here
+
 });
